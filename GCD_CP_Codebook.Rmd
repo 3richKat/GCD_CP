@@ -1,0 +1,27 @@
+---
+title: "GCD_CP_Codebook"
+author: "Erich Meschkat"
+date: "Sunday, September 21, 2014"
+output: html_document
+---
+
+Getting And Cleaning Data - Course Project Codebook
+
+Data is collected from 30 different volunteers, indicated by number.  Data listed is only mean and std deviation measures from selected variables.  
+
+#Naming Conventions for variables
+
+##Prefix
+Time - timeseries based data (collected at 50hz)
+Freq - Frequency based data (using Fourier transformation)
+
+##Axis info
+X, Y, X indicate the direction that the sensors are tracking against
+
+##Sensor Type
+Acc - Accelerometer
+gyro - gyroscope
+
+##measure
+mean - arithmatic mean
+std - standard deviation
